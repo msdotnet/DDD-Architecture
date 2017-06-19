@@ -1,0 +1,1 @@
+# Qualminds-Architecture
