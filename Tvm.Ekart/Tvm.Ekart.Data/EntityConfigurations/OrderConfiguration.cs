@@ -13,11 +13,7 @@ namespace Tvm.Ekart.Data.EntityConfigurations
                 .IsFixedLength()
                 .HasMaxLength(5);
 
-            Property(e => e.Freight)
-                .HasPrecision(19, 4)
-                .HasColumnType("money");
-
-            Property(e => e.ShipName)
+			Property(e => e.ShipName)
                 .HasMaxLength(40);
 
             Property(e => e.ShipAddress)

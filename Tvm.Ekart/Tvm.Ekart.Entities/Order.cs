@@ -21,8 +21,6 @@ namespace Tvm.Ekart.Entities
 
         public int? ShipVia { get; set; }
 
-        public decimal? Freight { get; set; }
-
         public string ShipName { get; set; }
 
         public string ShipAddress { get; set; }
