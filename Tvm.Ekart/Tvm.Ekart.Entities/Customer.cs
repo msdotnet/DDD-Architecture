@@ -14,11 +14,9 @@ namespace Tvm.Ekart.Entities
 
         public string ContactName { get; set; }
 
-        public string ContactTitle { get; set; }
-
         public string Address { get; set; }
-        public string City { get; set; }
-
+        
+		public string City { get; set; }
 
         public string PostalCode { get; set; }
 

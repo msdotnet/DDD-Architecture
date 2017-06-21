@@ -16,9 +16,6 @@ namespace Tvm.Ekart.Data.EntityConfigurations
             Property(e => e.ContactName)
                 .HasMaxLength(30);
 
-            Property(e => e.ContactTitle)
-                .HasMaxLength(30);
-
             Property(e => e.Address)
                 .HasMaxLength(60);
 

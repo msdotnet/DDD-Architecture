@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tvm.Ekart.Web", "Tvm.Ekart.Web\Tvm.Ekart.Web.csproj", "{E4A575EB-36B1-4927-B251-A7554A6C6057}"
 EndProject
@@ -38,6 +38,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tvm.Ekart.Repositories", "Tvm.Ekart.Repositories\Tvm.Ekart.Repositories.csproj", "{288275E8-904E-44A3-8FD3-4333B19A70E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tvm.Ekart.UnitOfWork", "Tvm.Ekart.UnitOfWork\Tvm.Ekart.UnitOfWork.csproj", "{7A765908-F994-49FD-BB89-156979E5F3F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{79131484-DF9A-43A1-B1FA-2A996775D9AD}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
