@@ -40,12 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Products\Commands\ProductCommandRepository.cs" />
+    <Compile Include="Products\Queries\ProductQueryRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tvm.Ekart.Contracts\Tvm.Ekart.Contracts.csproj">
       <Project>{9c5a5827-d802-4770-b9e4-eaa29a928b9a}</Project>
       <Name>Tvm.Ekart.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tvm.Ekart.Data\Tvm.Ekart.Data.csproj">
+      <Project>{8558d319-d4c2-4c09-8aa0-f22eb879d78a}</Project>
+      <Name>Tvm.Ekart.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\Tvm.Ekart.Dtos\Tvm.Ekart.Dtos.csproj">
       <Project>{566c4312-56ff-4016-b8b8-92e2fd4c1982}</Project>
@@ -57,8 +63,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Orders\" />
-    <Folder Include="Products\" />
+    <Folder Include="Orders\Commands\" />
+    <Folder Include="Orders\Queries\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
