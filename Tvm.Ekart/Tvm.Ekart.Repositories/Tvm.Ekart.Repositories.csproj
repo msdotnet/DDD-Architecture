@@ -56,5 +56,9 @@
       <Name>Tvm.Ekart.Entities</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Orders\" />
+    <Folder Include="Products\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

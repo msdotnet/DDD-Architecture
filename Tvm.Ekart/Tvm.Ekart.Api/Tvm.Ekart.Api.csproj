@@ -104,7 +104,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="Controllers\Orders\" />
+    <Folder Include="Controllers\Products\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

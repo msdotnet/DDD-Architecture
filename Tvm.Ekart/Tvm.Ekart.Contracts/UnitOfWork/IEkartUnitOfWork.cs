@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tvm.Ekart.DomainServices.Products
+namespace Tvm.Ekart.Contracts.UnitOfWork
 {
-	public class ProductService
-	{
-	}
+    public interface IEkartUnitOfWork
+    {
+    }
 }

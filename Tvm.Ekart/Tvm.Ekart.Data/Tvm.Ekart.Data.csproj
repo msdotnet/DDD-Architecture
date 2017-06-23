@@ -53,14 +53,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contexts\EkartContext.cs" />
-    <Compile Include="EntityConfigurations\CategoryConfiguration.cs" />
-    <Compile Include="EntityConfigurations\CustomerConfiguration.cs" />
-    <Compile Include="EntityConfigurations\OrderConfiguration.cs" />
-    <Compile Include="EntityConfigurations\OrderDetailConfiguration.cs" />
-    <Compile Include="EntityConfigurations\ProductConfiguration.cs" />
-    <Compile Include="EntityConfigurations\ShipperConfiguration.cs" />
-    <Compile Include="EntityConfigurations\SupplierConfiguration.cs" />
+    <Compile Include="Contexts\EkartCommandContext.cs" />
+    <Compile Include="Contexts\EkartQueryContext.cs" />
+    <Compile Include="EntityMappers\Commands\OrderMapper.cs" />
+    <Compile Include="EntityMappers\Commands\OrderDetailMapper.cs" />
+    <Compile Include="EntityMappers\Commands\ProductMapper.cs" />
+    <Compile Include="EntityMappers\Queries\OrderMapper.cs" />
+    <Compile Include="EntityMappers\Queries\ProductMapper.cs" />
+    <Compile Include="EntityMappers\Queries\ShipperMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
