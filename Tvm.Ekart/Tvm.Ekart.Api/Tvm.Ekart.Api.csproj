@@ -88,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\Products\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -105,13 +106,16 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\Orders\" />
-    <Folder Include="Controllers\Products\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tvm.Ekart.Contracts\Tvm.Ekart.Contracts.csproj">
       <Project>{9c5a5827-d802-4770-b9e4-eaa29a928b9a}</Project>
       <Name>Tvm.Ekart.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tvm.Ekart.DomainServices\Tvm.Ekart.DomainServices.csproj">
+      <Project>{cf98fe92-83c2-4f40-be32-22ecb0caf6e9}</Project>
+      <Name>Tvm.Ekart.DomainServices</Name>
     </ProjectReference>
     <ProjectReference Include="..\Tvm.Ekart.Dtos\Tvm.Ekart.Dtos.csproj">
       <Project>{566c4312-56ff-4016-b8b8-92e2fd4c1982}</Project>
@@ -124,6 +128,10 @@
     <ProjectReference Include="..\Tvm.Ekart.Models\Tvm.Ekart.Models.csproj">
       <Project>{9f171b4f-794f-4ddc-a0d0-934d046a18b9}</Project>
       <Name>Tvm.Ekart.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tvm.Ekart.UnitOfWork\Tvm.Ekart.UnitOfWork.csproj">
+      <Project>{7a765908-f994-49fd-bb89-156979e5f3f2}</Project>
+      <Name>Tvm.Ekart.UnitOfWork</Name>
     </ProjectReference>
     <ProjectReference Include="..\Tvm.Ekart.Utilities\Tvm.Ekart.Utilities.csproj">
       <Project>{7be4aaf0-0e6a-4918-b7fd-2e3720ab7c84}</Project>

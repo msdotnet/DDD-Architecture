@@ -54,7 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contexts\EkartCommandContext.cs" />
+    <Compile Include="Contexts\EkartCommandContextWrapper.cs" />
     <Compile Include="Contexts\EkartQueryContext.cs" />
+    <Compile Include="Contexts\EkartQueryContextWrapper.cs" />
     <Compile Include="EntityMappers\Commands\OrderMapper.cs" />
     <Compile Include="EntityMappers\Commands\OrderDetailMapper.cs" />
     <Compile Include="EntityMappers\Commands\ProductMapper.cs" />
